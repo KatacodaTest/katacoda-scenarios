@@ -1,24 +1,21 @@
+
 {
-  "title": "Trying UI Layout Working",
-  "description": "Explore UI Layout",
+  "noindex": true,
+  "title": "Scenario with Editor Terminal UI",
+  "description": "Katacoda Scenario Example",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
         "text": "step1.md"
       }
-    ],
-    "files": [
-      "app.js", "index.js"
-    ],
-    "intro": {
-      "text": "intro.md"
-    },
-    "finish": {
-      "text": "finish.md"
-    }
+    ]
   },
+  "files": [
+    "app.js", "index.js"
+  ],
   "environment": {
+    "hideintro": true,
+    "hidefinish": true,
     "uilayout": "editor-terminal",
     "uisettings": "javascript"
   },
