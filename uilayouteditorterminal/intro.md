@@ -1,0 +1,1 @@
+This is editor terminal layout test
