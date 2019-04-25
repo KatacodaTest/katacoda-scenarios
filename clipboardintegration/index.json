@@ -16,7 +16,8 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "hideintro": true,
+    "uilayout": "editor-terminal",
   },
   "backend": {
     "imageid": "ubuntu"
