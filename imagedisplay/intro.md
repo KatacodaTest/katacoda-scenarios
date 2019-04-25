@@ -1,0 +1,1 @@
+This tries displaying an image in katacoda!!!!!!!!!
