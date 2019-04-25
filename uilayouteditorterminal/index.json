@@ -11,7 +11,7 @@
     ]
   },
   "files": [
-    "app.js", "index.js"
+    "app.js", "index.js","test.js"
   ],
   "environment": {
     "hideintro": true,
