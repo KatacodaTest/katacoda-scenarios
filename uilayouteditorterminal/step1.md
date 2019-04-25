@@ -31,7 +31,7 @@ var requestListener = function (req, res) {
   res.end('Hello, World!');
 }
 
-<pre class="file" data-filename="app.js" data-target=
+<pre class="file" data-filename="app.js" data-target=>
 var server = http.createServer(requestListener);
 server.listen(3000, function() { console.log("Listening on port 3000")});
 </pre>
