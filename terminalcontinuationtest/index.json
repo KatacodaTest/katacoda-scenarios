@@ -28,6 +28,7 @@
   },
   "backend": {
     "imageid": "go",
-    "imageid":"ubuntu"
+    "imageid":"ubuntu",
+    "imageid":"kubernetes"
   }
 }
