@@ -24,7 +24,7 @@
     }
   },
   "environment": {
-    "uilayout": "Terminal"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "go"
