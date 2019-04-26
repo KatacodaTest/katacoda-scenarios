@@ -27,6 +27,7 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "go"
+    "imageid": "go",
+    "imageid":"ububtu"
   }
 }
