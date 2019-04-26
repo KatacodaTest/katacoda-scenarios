@@ -28,6 +28,6 @@
   },
   "backend": {
     "imageid": "go",
-    "imageid":"ububtu"
+    "imageid":"ubuntu"
   }
 }
