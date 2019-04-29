@@ -1,6 +1,6 @@
 This step basically set up the environment necessary.
 
-make master available on insecure port 8080
+make master available on insecure port 8080 for kubeedge to work
 
 `vim /etc/kubernetes/manifests/kube-apiserver.yaml`{{execute}}
 Edit - --insecure-port=8080
