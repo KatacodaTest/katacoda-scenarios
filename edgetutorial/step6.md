@@ -4,4 +4,4 @@ This step deploys the edge node
 
 Deploy node
 
-`kubectl apply -f $GOPATH/src/github.com/kubeedge/kubeedge/build/node.json`{{execute}}
+`kubectl apply -f $GOPATH/src/github.com/kubeedge/kubeedge/build/metadata.json`{{execute}}
