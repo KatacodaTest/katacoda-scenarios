@@ -12,7 +12,7 @@ Switch to the created directory and create the src directory(for GOPATH setting)
 
 Set GOPATH for working
 
-`export GOPATH=/root/kubeedge`{execute}}
+`export GOPATH=/root/kubeedge`{{execute}}
 
 Verify whether your GOPATH is set correctly
 
