@@ -2,7 +2,7 @@ This step basically set up the environment necessary.
 
 make master available on insecure port 8080
 
-`vim /etc/kubernetes/manifest/kube-apiserver.yaml`{{execute}}
+`vim /etc/kubernetes/manifests/kube-apiserver.yaml`{{execute}}
 Edit - --insecure-port=8080
 Add - --insecure-bind-address=0.0.0.0
 
