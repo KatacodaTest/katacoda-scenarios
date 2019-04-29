@@ -5,3 +5,5 @@ This step build cloud and edge
 make command build both cloud and edge parts
 
 `make`{{execute}}
+
+This step will create cloud and edge binaries
