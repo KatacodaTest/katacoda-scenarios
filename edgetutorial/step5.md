@@ -1,5 +1,5 @@
 Run Cloud
 
-`cd $GOPATH/src/github.com/kubeedge/kubeedge/cloud/edgecontroller`{{execute}}
+`cd $GOPATH/src/github.com/kubeedge/kubeedge/cloud`{{execute}}
 
 `./edgecontroller&`{{execute}}
