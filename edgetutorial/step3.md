@@ -6,4 +6,4 @@ The cert/key will be generated in the /etc/kubeedge/ca and /etc/kubeedge/certs r
 
 Update the path of certificates
 
-`vim $GOPATH/src/github.com/kubeedge/kubeedge/cloud/edgecontroller/conf/controller.yaml`{{execute}}
+`vim $GOPATH/src/github.com/kubeedge/kubeedge/cloud/conf/controller.yaml`{{execute}}
