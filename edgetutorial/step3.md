@@ -3,3 +3,7 @@ RootCA certificate and a cert/key pair is required to have a setup for KubeEdge.
 `$GOPATH/src/github.com/kubeedge/kubeedge/build/tools/certgen.sh genCertAndKey edge`{{execute}}
 
 The cert/key will be generated in the /etc/kubeedge/ca and /etc/kubeedge/certs respectively.
+
+Update the path of certificates
+
+`vim $GOPATH/src/github.com/kubeedge/kubeedge/cloud/edgecontroller/conf/controller.yaml`{{execute}}
