@@ -18,4 +18,6 @@ Below command will open edge.yaml file for updation:
 
 After making the above mentioned updations, run edge using the command given below:
 
+`cd $GOPATH/src/github.com/kubeedge/kubeedge/edge`{{execute}}
+
 `./edge_core`{{execute}}
