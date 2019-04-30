@@ -1,4 +1,4 @@
-##Environment Setup
+#Environment Setup
 
 This step basically setup the environment necessary for deploying kubeedge.
 
