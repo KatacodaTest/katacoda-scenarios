@@ -7,6 +7,7 @@ Make master available on insecure port 8080 and update insecure bind address to
 Update this parameters in the kube-apiserver.yaml file.
 
 Edit - --insecure-port=8080
+
 Add - --insecure-bind-address=0.0.0.0
 
 The below command will open the file and update the details in the file as specified.
