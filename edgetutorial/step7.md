@@ -11,6 +11,10 @@ For running edge, you need to update some parameters in edge.yaml file which are
    1. websocket:URL
    2. controller:node-id
    3. edged:hostname-override
+   
+Below command will open edge.yaml file for updation:
+
+`vim $GOPATH/src/github.com/kubeedge/kubeedge/edge/conf/edge.yaml`{{execute}}
 
 After making the above mentioned updations, run edge using the command given below:
 
