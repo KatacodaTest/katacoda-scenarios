@@ -1,4 +1,4 @@
-## Clone Base Code
+# Clone Base Code
 
 This step clones the code from kubeedge repository and keeps the code in path /root/kubeedge/github.com/kubeedge/kubeedge where you willl have both cloud and edge components. 
 
