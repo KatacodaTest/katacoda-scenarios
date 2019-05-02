@@ -1,9 +1,14 @@
-# Deploy Application
+# Check Status
 
-This step helps you to try out a sample application deployment.
+This step helps you to check the status of edge node.
 
-`kubectl apply -f $GOPATH/src/github.com/kubeedge/kubeedge/build/deployment.yaml`{{execute}}
+Open a new terminal by clicking on + near to current terminal.
 
-Then you can use below command to check if the application is normally running.
+Set GOPATH for this terminal.
 
-`kubectl get pods`{{execute}}
+`export GOPATH=/root/kubeedge`{{execute}}
+
+Now you have both your cloud and edge parts running, 
+you can use below command to check the edge node status.
+
+`kubectl get nodes`{{execute}}

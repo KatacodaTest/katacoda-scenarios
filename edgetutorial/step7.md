@@ -1,23 +1,23 @@
-# Run Edge
+# Deploy Edge Node
 
-This step runs the edge.
+This step deploys the edge node.
 
-For running edge, you need to update some parameters in edge.yaml file which are listed below:
+Open a new terminal by clicking on + next to existing terminal.
 
-1. Replace edgehub.websocket.certfile and edgehub.websocket.keyfile with your own certificate path(if you have changed the certificate path)
+Set your GOPATH for this terminal
 
-2. Replace fb4ebb70-2783-42b8-b3ef-63e2fd6d242eq with edge node name in edge.yaml for the below fields :
+`export GOPATH=/root/kubeedge`{{execute}}
 
-   1. websocket:URL
-   2. controller:node-id
-   3. edged:hostname-override
-   
-Below command will open edge.yaml file for updation:
+Modify the $GOPATH/src/github.com/kubeedge/kubeedge/build/node.json file. 
+Change metadata.name to name of the edge node that you wish to deploy.
 
-`vim $GOPATH/src/github.com/kubeedge/kubeedge/edge/conf/edge.yaml`{{execute}}
+`vim $GOPATH/src/github.com/kubeedge/kubeedge/build/node.json`{{execute}}
 
-After making the above mentioned updations, run edge using the command given below:
+Deploy node
 
-`cd $GOPATH/src/github.com/kubeedge/kubeedge/edge`{{execute}}
+`kubectl apply -f $GOPATH/src/github.com/kubeedge/kubeedge/build/node.json`{{execute}}
 
-`./edge_core`{{execute}}
+If you have changed the path of generated certificates,
+then update that path in edge.yaml file present in
+$GOPATH/src/github.com/edge/conf/edge.yaml.
+If you have not changed the path of certificates, ignore this step.

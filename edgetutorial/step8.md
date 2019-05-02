@@ -1,13 +1,23 @@
-# Check Status
+# Run Edge
 
-Open a new terminal by clicking on + near to curent terminal
+This step runs the edge.
 
-Set GOPATH for this terminal
+For running edge, you need to update some parameters in edge.yaml file which are listed below:
 
-`export GOPATH=/root/kubeedge`{{execute}}
+1. Replace edgehub.websocket.certfile and edgehub.websocket.keyfile with your own certificate path(if you have changed the certificate path)
 
-Now you have both your cloud and edge parts running, 
-you can use below command to check the edge node status.
+2. Replace fb4ebb70-2783-42b8-b3ef-63e2fd6d242eq with edge node name in edge.yaml for the below fields :
 
-`kubectl get nodes`{{execute}}
+   1. websocket:URL
+   2. controller:node-id
+   3. edged:hostname-override
+   
+Below command will open edge.yaml file for updation:
 
+`vim $GOPATH/src/github.com/kubeedge/kubeedge/edge/conf/edge.yaml`{{execute}}
+
+After making the above mentioned updations, run edge using the command given below:
+
+`cd $GOPATH/src/github.com/kubeedge/kubeedge/edge`{{execute}}
+
+`./edge_core`{{execute}}

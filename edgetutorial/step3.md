@@ -1,5 +1,7 @@
 # Generate Certificates
 
+This step generates the certificates necessary for kubeedge setup.
+
 RootCA certificate and a cert/key pair is required to have a setup for KubeEdge. 
 
 Same cert/key pair can be used in both cloud and edge.

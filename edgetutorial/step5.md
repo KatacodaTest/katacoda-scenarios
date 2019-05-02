@@ -1,11 +1,15 @@
-# Run Cloud 
+# View Created Binaries
 
-This step runs the cloud component.
+In this step, you can view the binaries created.
 
-Change path to where the generated cloud binary is present.
+View cloud binary in cloud directory
 
 `cd $GOPATH/src/github.com/kubeedge/kubeedge/cloud`{{execute}}
 
-Run cloud
+`ls`{{execute}}
 
-`./edgecontroller`{{execute}}
+View edge binary in edge directory
+
+`cd $GOPATH/src/github.com/kubeedge/kubeedge/edge`{{execute}}
+
+`ls`{{execute}}
