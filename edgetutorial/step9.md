@@ -13,4 +13,4 @@ you can use below command to check the edge node status.
 
 `kubectl get nodes`{{execute}}
 
-####### _If you are getting messages like "No resources found" or any error in connection to server, please re-execute the above step utill you are able to see master node as well as the edge node created._
+##### _If you are getting messages like "No resources found" or any error in connection to server, please re-execute the above step utill you are able to see master node as well as the edge node created._
