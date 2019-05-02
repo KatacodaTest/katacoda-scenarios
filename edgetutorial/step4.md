@@ -11,3 +11,5 @@ make command build both cloud and edge parts
 `make`{{execute}}
 
 This step will create cloud and edge binaries. You can view them in the cloud and edge directories respectively.
+
+##### Please wait until build is completed. This takes a few minutes.
