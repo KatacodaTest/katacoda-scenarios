@@ -2,7 +2,7 @@
 
 Go to the below mentioned path.
 
-`cd $GOPATH/src/kubeedge/kubeedge/build/edge`{{execute HOST2}}
+`cd $GOPATH/src/github.com/kubeedge/kubeedge/build/edge`{{execute HOST2}}
 
 ./run_daemon.sh only_run_edge mqtt=0.0.0.0:1883 cloudhub=0.0.0.0:10000 edgename=node image="kubeedge/edgecore:latest"
  
