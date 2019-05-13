@@ -8,9 +8,9 @@
 `sudo mv go /usr/local`{{execute HOST2}}
 `export GOROOT=/usr/local/go`{{execute HOST2}}
 
-`mkdir kubeedge`{{execute}}
-`cd kubeedge`{{execute}}
+`mkdir kubeedge`{{execute HOST2}}
+`cd kubeedge`{{execute HOST2}}
 
-`mkdir src`{{execute}}
+`mkdir src`{{execute HOST2}}
 `export GOPATH=/root/kubeedge`{{execute HOST2}}
 `export PATH=$GOPATH/bin:$GOROOT/bin:$PATH`{{execute HOST2}}
