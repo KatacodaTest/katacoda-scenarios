@@ -8,7 +8,7 @@ Do kubeadm init
 
 Perform following steps:
 
-`mkdir -p $HOME/.kube`{{execute HOST1}}
+`mkdir -p $HOME/.kube`{{execute}}
 `sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config`{{execute HOST1}}
 `sudo chown $(id -u):$(id -g) $HOME/.kube/config`{{execute HOST1}}
 
