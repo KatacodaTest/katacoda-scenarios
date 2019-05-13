@@ -1,6 +1,7 @@
 {
   "title": "TwoNode",
   "description": "2 nodes scenario",
+  "time": "20 minutes",
   "details": {
     "steps": [
       {
