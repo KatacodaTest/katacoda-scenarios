@@ -1,14 +1,20 @@
-#Check Status
+# Run edge nodes inside containers
 
-`kubectl get nodes`{{execute HOST1}}
+Go to the below mentioned path.
 
-#Deploy Apps
+`cd $GOPATH/src/kubeedge/kubeedge/build/edge`{{execute HOST2}}
 
-
-This step helps you to try out a sample application deployment.
-
-`kubectl apply -f $GOPATH/src/github.com/kubeedge/kubeedge/build/deployment.yaml`{{execute HOST2}}
-
-Then you can use below command to check if the application is normally running.
-
-`kubectl get pods`{{execute HOST1}}
+./run_daemon.sh only_run_edge mqtt=0.0.0.0:1883 cloudhub=0.0.0.0:10000 edgename=node image="kubeedge/edgecore:latest"
+ 
+ Use the above command to deploy your edge node inside container 
+ Replace 0.0.0.0 in cloudhub with the ip of the machine where your cloudhub is running
+ Also replace node with name of node you created
+ 
+ Repeat this step for multiple nodes. While repeating the same step for next node,
+ change the container name from edgecore to any new name in run_daemon.sh(Line No 167)
+ 
+ Check Status
+ 
+ `kubectl get nodes`{{execute HOST1}}
+ 
+ You can now see your edge nodes in ready state.

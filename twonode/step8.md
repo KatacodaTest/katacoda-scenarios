@@ -1,9 +1,16 @@
-# Run edge nodes as containers
+## Check Status
 
+This step helps you to check the status of edge node.
 
- ./run_daemon.sh only_run_edge mqtt=0.0.0.0:1883 cloudhub=0.0.0.0:10000 edgename=node image="kubeedge/edgecore:latest"
+Open a new terminal by clicking on + near to master node.
+
+Set GOPATH for this terminal.
+
+`export GOPATH=/root/kubeedge`{{execute HOST1}}
  
- Use the above command to deploy your edge node inside container 
- Replace 0.0.0.0 in cloudhub with the ip of the machine where your cloudhub is running
- Also replace node with name of node you created
+You can use below command to check the edge node status.
+
+`kubectl get nodes`{{execute HOST1}}
+
+You can see your master(Ready) and edge nodes(Not Ready)
  

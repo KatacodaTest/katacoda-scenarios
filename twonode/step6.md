@@ -1,6 +1,6 @@
 # Build and Run Cloud 
 
-This step builds cloud component
+This step builds and runs the cloud component
 
 Change your path to $GOPATH/src/github.com/kubeedge/kubeedge.
 
@@ -8,4 +8,4 @@ Change your path to $GOPATH/src/github.com/kubeedge/kubeedge.
 
 `make`{{execute HOST1}}
 
-`./edgecontroller`
+`./edgecontroller`{{execute HOST1}}
