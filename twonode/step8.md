@@ -6,11 +6,11 @@ Open a new terminal by clicking on + near to master node.
 
 Set GOPATH for this terminal.
 
-`export GOPATH=/root/kubeedge`{{execute HOST1}}
+`export GOPATH=/root/kubeedge`{{execute}}
  
 You can use below command to check the edge node status.
 
-`kubectl get nodes`{{execute HOST1}}
+`kubectl get nodes`{{execute}}
 
 You can see your master(Ready) and edge nodes(Not Ready)
  
