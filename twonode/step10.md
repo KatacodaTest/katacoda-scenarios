@@ -11,4 +11,4 @@ You can add a Node Selector in this deployment yaml to schedule the application 
 
 Then you can use below command to check if the application is normally running.
 
-`kubectl get pods`{{execute HOST1}}
+`kubectl get pods`{{execute}}

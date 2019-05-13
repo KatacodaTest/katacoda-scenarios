@@ -15,6 +15,6 @@ Go to the below mentioned path.
  
  Check Status
  
- `kubectl get nodes`{{execute HOST1}}
+ `kubectl get nodes`{{execute}}
  
  You can now see your edge nodes in ready state.
