@@ -3,7 +3,9 @@
 Copy the certificates generated in master to the node01 in path /etc/kubeedge/ca and /etc/kubeedge/certs
 
 `cd /etc`{{execute HOST2}}
+
 Create path for copying certificates.
+
 `mkdir kubeedge`{{execute HOST2}}
 
 `cd ckubeedge`{{execute HOST2}}
