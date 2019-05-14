@@ -3,6 +3,7 @@
 This step helps you to try out a sample application deployment.
 
 Go to this path to see a sample deployment file.
+
 `cd $GOPATH/src/github.com/kubeedge/kubeedge/build`{{execute HOST2}}
 
 `ls`{{execute HOST2}}

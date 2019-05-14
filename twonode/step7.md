@@ -15,4 +15,5 @@ Perform above two steps multiple times to create multiple nodes
 
 Pull docker image of edgecore
 `docker pull kubeedge/edgecore:v0.3.0-beta.0`{{execute HOST2}}
+
 `docker tag kubeedge/edgecore:v0.3.0-beta.0 kubeedge/edgecore:latest`{{execute HOST2}}
