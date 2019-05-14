@@ -11,5 +11,5 @@ kubectl apply -f $GOPATH/src/github.com/kubeedge/kubeedge/build/node.json -s clo
 Perform above two steps multiple times to create multiple nodes
 
 Pull docker image of edgecore
-`docker pull kubeedge/edgecontroller-test:v2.1`{{execute HOST2}}
-`docker tag kubeedge/edgecontroller-test:v2.1 kubeedge/edgecore:latest`{{execute HOST2}}
+`docker pull kubeedge/edgecore`{{execute HOST2}}
+`docker tag kubeedge/edgecore kubeedge/edgecore:latest`{{execute HOST2}}

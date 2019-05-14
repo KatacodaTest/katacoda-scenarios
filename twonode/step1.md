@@ -28,15 +28,9 @@ The below command will open the file and update the details in the file as speci
 
 `vim /etc/kubernetes/manifests/kube-apiserver.yaml`{{execute HOST1}}
 
-Create a folder for cloning the base code.
+Create folder structre for cloning the base code.
 
-`mkdir kubeedge`{{execute HOST1}}
-
-Switch to the created directory and create the src directory(for GOPATH setting)
-
-`cd kubeedge`{{execute HOST1}}
-
-`mkdir src`{{execute HOST1}}
+`mkdir -p kubeedge/src`{{execute HOST1}}
 
 Set GOPATH
 

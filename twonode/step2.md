@@ -1,6 +1,6 @@
 # Environment Setup for Edge Nodes
 
-###Install GoLang abd set GOROOT and GOPATH
+###Install GoLang and set GOROOT and GOPATH
 
 Download Go Lang Package
 `wget https://dl.google.com/go/go1.10.3.linux-amd64.tar.gz`{{execute HOST2}}

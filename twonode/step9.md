@@ -11,7 +11,8 @@ Go to the below mentioned path.
  Also replace node with name of node you created
  
  Repeat this step for multiple nodes. While repeating the same step for next node,
- change the container name from edgecore to any new name in run_daemon.sh(Line No 167)
+ change the container name from edgecore to any new name in run_daemon.sh(Line No 167).
+ This is done to create containers with different name
  
  Check Status
  
