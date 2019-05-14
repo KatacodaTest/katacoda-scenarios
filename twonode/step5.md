@@ -8,7 +8,7 @@ Create path for copying certificates.
 
 `mkdir kubeedge`{{execute HOST2}}
 
-`cd ckubeedge`{{execute HOST2}}
+`cd kubeedge`{{execute HOST2}}
 
 `mkdir ca`{{execute HOST2}}
 

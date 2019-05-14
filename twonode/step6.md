@@ -8,4 +8,7 @@ Change your path to $GOPATH/src/github.com/kubeedge/kubeedge.
 
 `make`{{execute HOST1}}
 
+Wait untill build is completed.
+
+Run cloud.
 `./edgecontroller`{{execute HOST1}}
