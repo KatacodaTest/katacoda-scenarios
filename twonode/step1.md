@@ -1,6 +1,6 @@
 # Environment Setup for Cloud Node
 
-This step basically setup the environment necessary for deploying kubeedge.
+This step basically sets up the environment required for deploying kubeedge.
 
 Do kubeadm init
 
@@ -16,7 +16,7 @@ Perform following steps to start using the cluster:
 
 `kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/a70459be0084506e4ec919aa1c114638878db11b/Documentation/kube-flannel.yml`{{execute HOST1}}
  
-Make master available on insecure port 8080 and update insecure bind address to 
+Make k8s apiserver listen on insecure port 8080 and update insecure bind address to 
 0.0.0.0 for edgecontroller/kubectl to work with http connection to Kubernetes apiserver. 
 Update this parameters in the kube-apiserver.yaml file.
 
@@ -39,5 +39,3 @@ Set GOPATH
 Verify whether your GOPATH is set correctly
 
 `echo $GOPATH`{{execute HOST1}}
-
-

@@ -7,4 +7,3 @@ This clones code to the master node.
 
 This clones code to node01.
 `git clone https://github.com/kubeedge/kubeedge.git $GOPATH/src/github.com/kubeedge/kubeedge`{{execute HOST2}}
-

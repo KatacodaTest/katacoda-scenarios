@@ -15,8 +15,9 @@ Create path for copying certificates.
 `mkdir certs`{{execute HOST2}}
 
 Copy the generated certificates.
+
 `scp -r /etc/kubeedge/ca root@node01:/etc/kubeedge`{{execute HOST1}}
 
 `scp -r /etc/kubeedge/certs root@node01:/etc/kubeedge`{{execute HOST1}}
 
-##### _This is the default path. You can keep certificates in any path you like but make sure you give that path for certificates in upcoming steps._
+##### _This is the default path. The certificates can be kept in any desired path but enusure that path is specified correctly for certificates in upcoming steps._
