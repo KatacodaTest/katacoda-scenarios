@@ -8,16 +8,16 @@ Go to this path to see a sample deployment file.
 
 `ls`{{execute HOST2}}
 
-Add a Node Selector in this deployment yaml if you would like to schedule the application to a particular edge node.
+Add a Node Selector in this deployment yaml if the application is to be scheduled on a particular edge node. If not ignore this step and apply the deployment.
 
 _kubectl apply -f deployment.yaml -s cloudhuburl:8080_
 
 Replace cloud hub url with ip of machine where cloud is running.
 
-You can also create your own application and deploy it to edge nodes you create.
+Any desired application can be deployed to the created edge nodes.
 
-Use below command to check if the application is successfully deployed.
+Use below command to check if the application is successfully deployed and running.
 
 `kubectl get pods`{{execute}}
 
-Execute above command untill the application status is "Running".
+Execute above command until the application status is "Running".

@@ -12,5 +12,5 @@ The below command will generate the certificates.
 
 The cert/key will be generated in the /etc/kubeedge/ca and /etc/kubeedge/certs respectively.
 
-If you would like to change the path of certificates, then update the path where you would like to keep certificates in 
+If is acceptable to keep certificate in any desired path but ensure to update the corresponding path in 
 $GOPATH/src/github.com/kubeedge/kubeedge/cloud/conf/controller.yaml.

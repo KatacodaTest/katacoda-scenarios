@@ -36,6 +36,6 @@ Set GOPATH
 
 `export GOPATH=/root/kubeedge`{{execute HOST1}}
 
-Verify whether your GOPATH is set correctly
+Verify whether GOPATH is set correctly
 
 `echo $GOPATH`{{execute HOST1}}
