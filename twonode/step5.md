@@ -20,4 +20,4 @@ Copy the generated certificates.
 
 `scp -r /etc/kubeedge/certs root@node01:/etc/kubeedge`{{execute HOST1}}
 
-##### _This is the default path. The certificates can be kept in any desired path but enusure that path is specified correctly for certificates in upcoming steps._
+ _This is the default path. The certificates can be kept in any desired path but enusure that path is specified correctly for certificates in upcoming steps._

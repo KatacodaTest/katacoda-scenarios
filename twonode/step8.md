@@ -1,6 +1,6 @@
 # Check Status
 
-This step helps to check the status of created edge node.
+This step helps to check the status of created edge nodes.
 
 Open a new terminal by clicking on + near to master node.
 
