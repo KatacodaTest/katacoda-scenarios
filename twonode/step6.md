@@ -10,7 +10,7 @@ Remove module devicecontroller in modules.yaml to avoid unnecessary error logs.
 
 `vim modules.yaml`{{execute HOST1}}
 
-`cd ..`
+`cd ..`{{execute HOST1}}
 
 Build the cloud component.
 

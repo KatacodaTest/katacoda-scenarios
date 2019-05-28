@@ -14,7 +14,7 @@ _Replace cloudhuburl with the ip of the machine where cloud is running(use ens3 
 
 Perform above two steps multiple times to create multiple nodes.
 
-You will get a message telling node created.
+On successful creation of node, message "node/_edge node name given_ created" will be displayed. 
 
 Pull docker image of edgecore(The image used for this tutorial is created from release version v0.3.0-beta.0).
 
