@@ -16,5 +16,6 @@ This clones code to node01 and keeps it in GOPATH.
 
 Check out to version 1.0
 
-`cd $GOPATH/src/github.com/kubeedge/kubeedge`{{execute HOST1}}
+`cd $GOPATH/src/github.com/kubeedge/kubeedge`{{execute HOST2}}
+
 `git checkout v1.0.0`{{execute HOST2}}
