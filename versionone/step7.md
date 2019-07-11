@@ -18,8 +18,8 @@ On successful creation of node, message "node/_edge node name given_ created" wi
 
 Pull docker image of edgecore(The image used for this tutorial is created from release version v0.3.0-beta.0).
 
-`docker pull lidiya92/edgecore:v1.0.0`{{execute HOST2}}
+`docker pull kubeedge/edgecore:v1.0.0`{{execute HOST2}}
 
 Tag the image to kubeedge/edgecore:latest.
 
-`docker tag lidiya92/edgecore:v1.0.0 kubeedge/edgecore:latest`{{execute HOST2}}
+`docker tag kubeedge/edgecore:v1.0.0 kubeedge/edgecore:latest`{{execute HOST2}}
